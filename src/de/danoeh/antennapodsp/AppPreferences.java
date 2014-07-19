@@ -43,7 +43,7 @@ public class AppPreferences {
 
     // Preferences
 
-    public boolean pauseOnHeadsetDisconnect = false;
+    public boolean pauseOnHeadsetDisconnect = true;
     public boolean downloadMediaOnWifiOnly = true;
     public boolean allowMobileUpdates = false;
     public boolean enableAutodownload = true;
