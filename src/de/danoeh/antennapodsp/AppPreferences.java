@@ -21,12 +21,12 @@ public class AppPreferences {
      * update their subscriptions list. Note that changing this list removes all old feeds on existing installations, which
      * means that all downloaded episodes will be deleted, too.
      */
-    public static final String[] feedUrls = {"http://feeds.feedburner.com/EinschlafenPodcastEnhanced?format=xml"};
+    public static final String[] feedUrls = {"http://breakthruradio.com/xml/podcast.php?dj_id=92"};
 
     /**
      * User-Agent header for HTTP-requests.
      */
-    public final static String USER_AGENT = "EinschlafenPodcastAndroid/1.0";
+    public final static String USER_AGENT = "RadioDispatchAndroid/1.0";
 
     /**
      * As soon as the user installs a second AntennaPod single purpose app, this app will ask the user
@@ -43,7 +43,7 @@ public class AppPreferences {
 
     // Preferences
 
-    public boolean pauseOnHeadsetDisconnect = false;
+    public boolean pauseOnHeadsetDisconnect = true;
     public boolean downloadMediaOnWifiOnly = true;
     public boolean allowMobileUpdates = false;
     public boolean enableAutodownload = true;
